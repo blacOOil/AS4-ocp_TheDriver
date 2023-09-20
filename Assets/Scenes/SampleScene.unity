@@ -1417,12 +1417,6 @@ MonoBehaviour:
     Price: 52
     type: 4
     order: 9
-  - Icon: {fileID: -177844310, guid: 8595f2416f1f73c4ebd8713099c87e69, type: 3}
-    ItemName: Extra Red Health
-    ItemInfo: Heal Health
-    Price: 70
-    type: 1
-    order: 10
 --- !u!114 &232313316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3129,12 +3123,6 @@ MonoBehaviour:
     Price: 52
     type: 4
     order: 9
-  - Icon: {fileID: -177844310, guid: 8595f2416f1f73c4ebd8713099c87e69, type: 3}
-    ItemName: Extra Red Health
-    ItemInfo: Heal Health
-    Price: 70
-    type: 1
-    order: 10
 --- !u!114 &692384121
 MonoBehaviour:
   m_ObjectHideFlags: 0
