@@ -67,7 +67,7 @@ namespace Inventory.ItemPresenter
             Debug.Log("3 - Gem");
         }
         public void CharacterStarCategory() {
-            currentCategoryIndex=4;
+            currentCategoryIndex = 4;
             RefreshUI();
             Debug.Log("4 - CharacterStar");
         }
