@@ -13,9 +13,9 @@ public class SwitchUIBotton : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        if (target.value == 1f) {
+        if (target.value == 0f) {
             CanvasUISwitchNew();
-        } else if (target.value == 0f) {
+        } else if (target.value == 1f) {
             CanvasUISwitchOld();
         }
     }

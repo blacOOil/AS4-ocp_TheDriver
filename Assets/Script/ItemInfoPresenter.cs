@@ -13,6 +13,7 @@ namespace Inventory.ItemPresenter
     public class ItemInfoPresenter : MonoBehaviour
     {
         public TextMeshProUGUI ItemTextName,ItemTextInfo,ItemPrice;
+        public Image image;
 
         //public static ItemInfoPresenter Instance;
         //public List<Item> Items = new List<Item>();
