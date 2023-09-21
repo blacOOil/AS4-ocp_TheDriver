@@ -27,10 +27,11 @@ namespace Inventory.ItemPresenter
       
         public void Start()
         {
+
             //ListItemInfo();
-            List<Item> items = FindObjectOfType<ItemPresenter>().Items;
-            Debug.Log("Number of items in the list: " + items.Count);
-            ListItemInfo(items);
+          //  List<Item> items = FindObjectOfType<ItemPresenter>().Items;
+           // Debug.Log("Number of items in the list: " + items.Count);
+            //ListItemInfo(items);
         }
         private void Awake()
         {
@@ -42,7 +43,7 @@ namespace Inventory.ItemPresenter
 
             if (items.Count > 0)
             {
-                int ItemOrder = 0;
+                int ItemOrder = 5;
                 var item = items[ItemOrder];
                 GameObject itemUi = Instantiate(ItemInfoPrefab, ItemInfoContent);
              
@@ -65,6 +66,12 @@ namespace Inventory.ItemPresenter
 
             }
 
+        }
+        public void StartPresentInfo(int itemOrder)
+        {
+            List<Item> items = FindObjectOfType<ItemPresenter>().Items;
+            Debug.Log("Number of items in the list: " + items.Count);
+            ListItemInfo(items);
         }
 
     }
